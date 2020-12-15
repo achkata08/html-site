@@ -1,0 +1,158 @@
+@import "https://use.fontawesome.com/releases/v5.8.2/css/all.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: #cecece;
+    color: rgb(253, 229, 229);
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.header{
+    background-color:  rgb(55, 103, 156);
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    flex-grow: 1;
+    background-image:url('https://images.derstandard.at/img/2020/01/30/earth.jpg?w=750&s=9687173c');
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.quote{
+    width: 35rem;
+    position: absolute;
+    top: 7%;
+    left: 4%;
+    background-color: rgba(55,103,156, 0.3);
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+.quote2{
+    width: 45rem;
+    position: absolute;
+    top: 66%;
+    left: 20%;
+    background-color: rgba(55,103,156, 0.3);
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+.navbar-ul{
+    display: flex;
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.link{
+    display: block;
+    margin: 0.5rem;
+    color: white;
+    text-decoration: none;
+    padding: 0.4rem 1.5rem;
+    text-transform: uppercase;
+}
+
+.link:hover{
+    background-color: white;
+    color:  rgb(158, 61, 61);
+    border-radius: 1rem;
+}
+
+.footer{
+    text-align: center;
+    width: 100%;
+    background-color:   rgb(55, 103, 156);
+}
+
+.footer i{
+    margin: 1.5rem;
+   display: inline-block;
+}
+
+.hamburger{
+    display: none;
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    .navbar{
+        justify-content: flex-end;
+    }
+
+    .hamburger{
+        display: block;
+        color: rgb(55, 103, 156);
+    }
+
+    .hamburger :hover{
+        color: rgb(55, 103, 156);
+    }
+
+    .base{
+        display: none;
+    }
+    
+
+    .quote{
+        width: 30rem;
+        font-size: 1.4rem;
+        position: absolute;
+        top: 2%;
+        left: 4%;
+        background-color: rgba(55,103,156, 0.3);
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+    }
+
+    .quote2{
+        font-size: 1.4rem;
+        width: 30rem;
+        position: absolute;
+        top: 66%;
+        left: 5%;
+        background-color: rgba(55,103,156, 0.3);
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+    }
+
+    .hamburger-menu{
+        background-color: rgba(55,103,156, 1);
+        z-index: 1;
+        top: 12%;
+        right: 1%;
+        position: absolute;
+        list-style-type: none;
+        display: none;
+        border-radius: 1rem;
+    }
+
+    .hamburger-menu ul {
+        list-style-type: none;
+        
+    }
+  }
