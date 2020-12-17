@@ -13,7 +13,7 @@
         <nav class="navbar">
             <ul class="navbar-ul base">
                 <li><a class="link" href="/">Home</a></li>
-                <li><a class="link" href="about.html">About</a></li>
+                <li><a class="link" href="/about.html">About</a></li>
             </ul>
             <ul class="navbar-ul hamburger">
                 <li class="navbar-ul">
@@ -24,7 +24,7 @@
                 <div class="hamburger-menu" id="hamb">
                     <ul>
                         <li><a class="link" href="/">Home</a></li>
-                        <li><a class="link" href="about.html">About</a></li>
+                        <li><a class="link" href="/about.html">About</a></li>
                     </ul>
                 </div>
             </ul>
