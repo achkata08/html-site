@@ -31,9 +31,13 @@
         </nav>
     </header>
     <main class="content">
-        <blockquote class="quote">Пътят нагоре никога не е лесен, но въпреки това следвай мечтите си!</blockquote>
+        <blockquote class="quote">Пътят нагоре никога не е лесен, но въпреки това следвай мечтите си!
+        <hr>
+        <small><?php echo 'Angel Angelov'; ?></small> 
+        </blockquote>
     </main>
     <footer class="footer">
+        
         <i class="fab fa-facebook-square"></i>
         <i class="fab fa-skype"></i>
         <i class="fab fa-linkedin"></i>
