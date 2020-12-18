@@ -9,42 +9,15 @@
 </head>
 
 <body>
-    <header class="header">
-        <nav class="navbar">
-            <ul class="navbar-ul base">
-                <li><a class="link" href="/">Home</a></li>
-                <li><a class="link" href="/about.php">About</a></li>
-            </ul>
-            <ul class="navbar-ul hamburger">
-                <li class="navbar-ul">
-                    <a href="javascript:void(0);" class="link"  onclick="hamburgeFunc()">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                </li>
-                <div class="hamburger-menu" id="hamb">
-                    <ul>
-                        <li><a class="link" href="/">Home</a></li>
-                        <li><a class="link" href="/about.php">About</a></li>
-                    </ul>
-                </div>
-            </ul>
-        </nav>
-    </header>
+    <?php require 'components/header.php'; ?>
     <main class="content">
         <blockquote class="quote">Пътят нагоре никога не е лесен, но въпреки това следвай мечтите си!
-        <hr>
-        <small><?php echo 'Angel Angelov'; ?></small> 
+            <hr>
+            <small><?php echo 'Angel Angelov'; ?></small>
         </blockquote>
     </main>
-    <footer class="footer">
-        
-        <i class="fab fa-facebook-square"></i>
-        <i class="fab fa-skype"></i>
-        <i class="fab fa-linkedin"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fas fa-envelope"></i>
-    </footer>
-    <script src="js/app.js"></script>
+    <?php require 'components/footer.php'; ?>
+
 </body>
 
 </html>
