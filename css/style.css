@@ -76,7 +76,7 @@ body{
     text-transform: uppercase;
 }
 
-.link:hover{
+.active, .link:hover{
     background-color: white;
     color:  rgb(158, 61, 61);
     border-radius: 1rem;
