@@ -1,0 +1,2 @@
+<li><a class="link <?php echo ($_SERVER['PHP_SELF'] == "/index.php" ? "active": ""); ?>" href="/">Home</a></li>
+<li><a class="link <?php echo ($_SERVER['PHP_SELF'] == "/about.php" ? "active": ""); ?>" href="/about.php">About</a></li>
